@@ -1,0 +1,6 @@
+!d: https://duckduckgo.com/?q=%s
+!g: https://encrypted.google.com/search?hl=en&q=%s Google
+!gm: https://www.google.com/maps?q=%s Google Maps
+!map: https://www.google.com/maps?q=%s Google Maps
+!w: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+!so: http://stackoverflow.com/search?q= Stack Overflow

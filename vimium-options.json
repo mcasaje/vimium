@@ -1,0 +1,21 @@
+{
+  "settingsVersion": "1.63.3",
+  "exclusionRules": [],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Unmapping\nunmapAll\n\n# Navigating the Page\nmap gg scrollToTop\nmap G scrollToBottom\nmap k scrollUp\nmap j scrollDown\nmap h scrollLeft\nmap l scrollRight\nmap <c-f> scrollPageDown\nmap <c-b> scrollPageUp\nmap gh scrollToLeft\nmap gl scrollToRight\n\n# Navigating Frames\nmap gf nextFrame\nmap gF mainFrame\n\n# URL and Input\nmap yy copyCurrentUrl\nmap p openCopiedUrlInCurrentTab\nmap P openCopiedUrlInNewTab\nmap i focusInput\nmap gk goUp\nmap gj goToRoot\n\n# Vomnibar\nmap I Vomnibar.activateEditUrlInNewTab\nmap # Vomnibar.activateTabSelection\nmap * Vomnibar.activateInNewTab\nmap : Vomnibar.activateBookmarksInNewTab\n\n# Find\nmap / enterFindMode\nmap n performFind\nmap N performBackwardsFind\n\n# Navigating History\nmap <c-a> goForward\nmap <c-x> goBack\nmap R reload hard\n\n# Manipulating Tabs\nmap 0 firstTab\nmap $ lastTab\nmap w nextTab\nmap b previousTab\nmap x removeTab\nmap X closeOtherTabs\nmap u restoreTab\nmap . duplicateTab\nmap d0 closeTabsOnLeft\nmap d$ closeTabsOnRight\nmap ' togglePinTab\nmap , moveTabLeft\nmap ; moveTabRight\nmap \\ moveTabToNewWindow\n\n# Links\nmap v LinkHints.activateMode\nmap g? LinkHints.activateModeToOpenIncognito\n\n# Page\n\n# Marks\nmap m Marks.activateCreateMode\nmap ` Marks.activateGotoMode\n\n# Special\nmap [ goPrevious\nmap ] goNext\nmap V enterVisualMode\n\n# Miscellaneous\nmap ? showHelp\nmap gs viewSource\nmap ! passNextKey\nmap M toggleMuteTab",
+  "linkHintCharacters": "asdfqwer",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": true,
+  "ignoreKeyboardLayout": true,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "!d: https://duckduckgo.com/?q=%s\n!g: https://encrypted.google.com/search?hl=en&q=%s Google\n!gm: https://www.google.com/maps?q=%s Google Maps\n!map: https://www.google.com/maps?q=%s Google Maps\n!w: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n!so: http://stackoverflow.com/search?q= Stack Overflow",
+  "searchUrl": "https://duckduckgo.com/?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

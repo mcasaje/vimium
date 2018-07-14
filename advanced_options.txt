@@ -1,0 +1,15 @@
+Characters used for link hints: asdfqwer
+
+Miscellaneous options:
+
+[x] Use smooth scrolling
+[ ] Use the link's name and characters for link-hint filtering
+[x] Don't let pages steal the focus on load
+[ ] Hide the Heads Up Display (HUD) in insert mode
+[x] Treat find queries as JavaScript regular expressions
+[x] Ignore keyboard layout
+
+Previous patterns: <default>
+Next patterns: <default>
+New tab URL: about:newtab
+Default search engine: https://duckduckgo.com/?q=

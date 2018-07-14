@@ -1,0 +1,79 @@
+# Unmapping
+unmapAll
+
+# Navigating the Page
+map gg scrollToTop
+map G scrollToBottom
+map k scrollUp
+map j scrollDown
+map h scrollLeft
+map l scrollRight
+map <c-f> scrollPageDown
+map <c-b> scrollPageUp
+map gh scrollToLeft
+map gl scrollToRight
+
+# Navigating Frames
+map gf nextFrame
+map gF mainFrame
+
+# URL and Input
+map yy copyCurrentUrl
+map p openCopiedUrlInCurrentTab
+map P openCopiedUrlInNewTab
+map i focusInput
+map gk goUp
+map gj goToRoot
+
+# Vomnibar
+map I Vomnibar.activateEditUrlInNewTab
+map # Vomnibar.activateTabSelection
+map * Vomnibar.activateInNewTab
+map : Vomnibar.activateBookmarksInNewTab
+
+# Find
+map / enterFindMode
+map n performFind
+map N performBackwardsFind
+
+# Navigating History
+map <c-a> goForward
+map <c-x> goBack
+map R reload hard
+
+# Manipulating Tabs
+map 0 firstTab
+map $ lastTab
+map w nextTab
+map b previousTab
+map x removeTab
+map X closeOtherTabs
+map u restoreTab
+map . duplicateTab
+map d0 closeTabsOnLeft
+map d$ closeTabsOnRight
+map ' togglePinTab
+map , moveTabLeft
+map ; moveTabRight
+map \ moveTabToNewWindow
+
+# Links
+map v LinkHints.activateMode
+map g? LinkHints.activateModeToOpenIncognito
+
+# Page
+
+# Marks
+map m Marks.activateCreateMode
+map ` Marks.activateGotoMode
+
+# Special
+map [ goPrevious
+map ] goNext
+map V enterVisualMode
+
+# Miscellaneous
+map ? showHelp
+map gs viewSource
+map ! passNextKey
+map M toggleMuteTab
